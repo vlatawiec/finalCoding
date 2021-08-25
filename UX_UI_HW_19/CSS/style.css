@@ -1,0 +1,497 @@
+/* Back to top button*/
+
+.backToTop svg {
+  width: 20px;
+  height: auto;
+  margin: auto;
+  right: 50px;
+  bottom: 50px;
+  padding: 0;
+  text-align: center;
+}
+.backToTop svg:hover {
+  filter: invert();
+}
+.backToTop button:hover {
+  background-color: #ffbe3bc4;
+}
+.backToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 50px;
+  bottom: 50px;
+}
+.backToTop button {
+  background-color: #ffbf3b;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  border-radius: 100%;
+  border-color: white;
+  border-style: solid;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 99;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* My Work */
+#latest {
+  text-align: center;
+}
+.mywork {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas: "caseStudy1" "caseStudy2" "caseStudy3";
+  height: auto;
+}
+.workgrid {
+  grid-area: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.ProjectTitle {
+  align-items: flex-start;
+}
+.workLeft {
+  width: 45%;
+  justify-content: center;
+  padding-right: 75px;
+  margin: auto;
+}
+.CSA,
+.FP,
+.NWIA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+.FP {
+  flex-direction: row-reverse;
+}
+.workRight {
+  width: 55%;
+  height: auto;
+  margin-left: 20px;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+.mywork img {
+  width: 100%;
+  justify-content: flex-end;
+}
+.mywork {
+  height: fit-content;
+  display: flex;
+}
+#viewall a {
+  margin-top: 50px;
+  text-decoration: none;
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1%;
+  color: #ada8b6;
+  text-align: center;
+  height: fit-content;
+  margin: 1px;
+}
+#viewall {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+/* NavWip */
+.navWip {
+  width: 100%;
+}
+.Navv {
+  display: flex;
+  background-color: white;
+  margin: 40px;
+  width: 100%;
+}
+.leftNav {
+  width: 15%;
+}
+.centerSpace {
+  width: 35%;
+}
+.leftNav p {
+  font-family: Nunito;
+  font-weight: bolder;
+  font-size: 12pt;
+  line-height: 150%;
+}
+.rightNav {
+  width: 50%;
+}
+.leftNav,
+.rightNav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightNav a {
+  color: #1c1b1f;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  right: 0px;
+  margin: 25px;
+}
+
+.rightNav span {
+  padding: 10px;
+}
+
+/* About */
+/* Hero Img */
+.ContentAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+}
+.HeroAbout {
+  margin-bottom: 80px;
+}
+.InfoHero {
+  justify-content: right;
+  margin-right: 50px;
+}
+.InfoHero h1 {
+  margin-bottom: 20px;
+}
+.InfoHero span {
+  margin-top: 10px;
+}
+/* Hero Img */
+
+/* Skill Section */
+
+.SkillTitle {
+  text-align: center;
+}
+.SkillBlock svg {
+  color: #ffbf3b;
+  fill: #ffbf3b;
+  width: 150px;
+  height: 150px;
+}
+.SkillBlock {
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  position: relative;
+}
+#Skills {
+  align-content: center;
+  margin: auto;
+  background-color: #ffbe3b46;
+  padding: 50px;
+}
+.flexContainerS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  width: 1fr 1fr 1fr;
+}
+/* Skill Section */
+
+/* Values Section */
+.flexContainerV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#Values {
+  align-content: center;
+  margin: auto;
+}
+.ValueBlock {
+  padding: 50px;
+  background-color: #ffbf3b;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  position: relative;
+  color: #1c1b1f;
+}
+.ValueBlock svg {
+  fill: #ffffff;
+  width: 150px;
+  height: 150px;
+}
+.ValueTitle {
+  text-align: center;
+}
+/* Values Section */
+
+hr {
+  width: 30%;
+  height: 1px;
+  background-color: #ada8b6;
+  color: #ada8b6;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 48pt;
+  letter-spacing: 5%;
+  line-height: 60%;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: nunito;
+}
+h2 {
+  font-size: 36pt;
+  letter-spacing: 2pt;
+  line-height: normal;
+  font-style: normal;
+  font-weight: semi-bold;
+  font-family: nunito;
+}
+h3 {
+  font-family: nunito;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1%;
+}
+p {
+  font-size: 16pt;
+  letter-spacing: 2pt;
+  line-height: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Open sans;
+}
+
+.navlink {
+  display: block;
+  float: inline-end;
+}
+/* Nav Links */
+.ContactButton {
+  display: inline-block;
+  margin-inline-end: auto;
+}
+.navItems {
+  list-style: none;
+  display: inline-block;
+}
+.navItems li {
+  width: 100%;
+  margin: 0 0 1em 0;
+  display: inline-block;
+  align-content: center;
+}
+.navItems a {
+  color: #1c1b1f;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  align-content: center;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 500px;
+  padding: 25px;
+  margin: 50px;
+}
+.Content {
+  display: flex;
+}
+.heroLeft {
+  padding: 6%;
+  margin-left: 50px;
+}
+.Itext {
+  width: auto;
+  height: auto;
+}
+.heroRight {
+  margin-right: 50px;
+}
+.heroCTA span {
+  margin: 25px;
+}
+/* Body */
+body {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f0f6;
+  padding: 5px;
+}
+.footernav {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+.SocialMedia {
+  display: inline-block;
+
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+}
+#copyright {
+  font-size: 10pt;
+}
+
+/* Buttons */
+.button {
+  background-color: #ffbf3b;
+  color: white;
+  font-family: nunito;
+  font-weight: bold;
+  font-size: 18;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10pt;
+}
+.button2 {
+  background-color: white;
+  color: #ada8b6;
+  font-family: nunito;
+  font-weight: bold;
+  font-size: 18;
+  border: #ada8b6;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 10pt;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mywork {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    grid-template-areas: "caseStudy1" "caseStudy2" "caseStudy3";
+  }
+}
+
+/*Footer Wip*/
+.navFooter {
+  background-color: #ffbf3b;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+}
+.navFooter a {
+  color: #1c1b1f;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: open Sans;
+  padding: 20px;
+}
+#footerLast {
+  margin-right: 40px;
+}
+.navFooter a:hover {
+  background-color: rgba(255, 255, 255, 0.212);
+  color: white;
+}
+.footerContent {
+  background-color: #f5f0f6;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.footerTitle {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footerLeft {
+  display: block;
+  width: 35%;
+  margin: auto;
+  padding-left: 25px;
+}
+.footerRight h2 {
+  font-size: 32px;
+}
+.footerRight p {
+  font-size: 16px;
+}
+.footerRight {
+  width: 65%;
+  justify-content: center;
+}
+.SocialMedia {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.SocialMedia img {
+  width: 50px;
+  height: 50px;
+  fill: #1c1b1f;
+  padding-right: 20px;
+}
+.copyright {
+  padding: 1px;
+  background-color: #ffbf3b;
+}
+.copyright p {
+  font-size: 8pt;
+  font-family: open sans;
+  font-weight: 300;
+  text-align: right;
+  padding-right: 25px;
+}
